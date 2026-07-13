@@ -19,16 +19,16 @@
 #define BUTTONS_NUMBER 4
 
 #define BUTTON_START   5
-#define BUTTON_1       7
-#define BUTTON_2       6
-#define BUTTON_3       17
-#define BUTTON_4       5
+#define BUTTON_1       7    // OK
+#define BUTTON_2       6    // IZQUIERDA
+#define BUTTON_3       5    // DERECHA
+#define BUTTON_4       17   // ATRÁS - Testing pin 17 (change to 20,21,22,23,24 if needed)
 #define BUTTON_STOP    17
 #define BUTTON_PULL    NRF_GPIO_PIN_PULLUP
 
 #define BUTTONS_ACTIVE_STATE 0
 
-#define BUTTONS_LIST { BUTTON_1, BUTTON_2, BUTTON_3,BUTTON_4}
+#define BUTTONS_LIST { BUTTON_1, BUTTON_2, BUTTON_3, BUTTON_4 }
 
 #define BSP_BUTTON_0   BUTTON_1
 #define BSP_BUTTON_1   BUTTON_2
